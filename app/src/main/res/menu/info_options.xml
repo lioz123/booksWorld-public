@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group>
+        <item android:id="@+id/smallFont" android:title="@string/small_font"
+            app:showAsAction="never"
+            />
+        <item android:id="@+id/medium_font"
+            android:title="@string/medium_font"
+            app:showAsAction="never"
+            />
+        <item android:id="@+id/bigFont"
+            android:title="@string/big_font"
+            app:showAsAction="never"
+            />
+        <item android:id="@+id/hugeFont" android:title="@string/huge_font"
+            app:showAsAction="never"
+
+            />
+    </group>
+
+
+
+</menu>

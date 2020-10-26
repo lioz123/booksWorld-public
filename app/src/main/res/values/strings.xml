@@ -1,0 +1,70 @@
+<resources>
+    <!-- Shared_Elements-->
+    <string name="shared_image">shared_image</string>
+    <string name="shared_title">shared_title</string>
+    <string name="black_background">262626</string>
+    <!-- end of shared elements-->
+    <string name="start_downloading">Downloading start</string>
+    <string name="app_name">BooksWorldv2</string>
+    <string name="home">home</string>
+    <string name="explore">explore</string>
+    <string name="open_drawer_string">open drawer</string>
+    <string name="close_drawer">closed drawer</string>
+    <string name="small_font">small</string>
+    <string name="big_font">big</string>
+    <string name="huge_font">huge</string>
+    <string name="downloads">downloads</string>
+    <string name="search">search...</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="author">author:</string>
+    <string name="name">name:</string>
+    <string name="tags">tags:</string>
+    <string name="download">download</string>
+    <string name="failed_downloading">Failed Downloading:</string>
+    <string name="description">description:</string>
+    <string name="view_more">view more</string>
+    <string name="show_more">show more</string>
+    <string name="show_less">show less</string>
+    <string name="stop">stop</string>
+    <string name="last_page">last page</string>
+    <string name="first_page">first page</string>
+    <string name="bookmarked">bookmark</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="page_preferneces">Page Preferences</string>
+    <string name="font_family">Font-Family</string>
+    <string name="font_size">Font size</string>
+    <string name="settings_selection">Settings</string>
+    <string name="advanced">Advanced</string>
+    <string name="background_color">background-color</string>
+    <string name="text_color">text-color</string>
+    <string name="medium_font">Medium</string>
+    <string name="bookmark">BookMark</string>
+    <string name="download_folder_is_empty">Download folder is empty</string>
+    <string name="downloading">Downloading:</string>
+    <string name="delete">Delete</string>
+    <string name="number_of_threads">NUMBER_OF_THREADS</string>
+    <string name="donwload_threads_seek_bar">download_thread_seek_bar</string>
+    <string name="done">DONE</string>
+    <string name="set_page">Set Page</string>
+    <string name="cencel">cancel</string>
+    <string name="set">set</string>
+    <string name="go_to_chapter">go to chapter:</string>
+    <string name="go">go</string>
+    <string name="logout">logout</string>
+
+</resources>

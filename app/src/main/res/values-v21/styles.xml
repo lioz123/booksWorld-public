@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="startAppTheme" parent="@style/Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#3F51B5</item>
+        <item name="colorPrimaryDark">@color/dark_grey</item>
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+        <item name="android:windowBackground">@drawable/splash_screen_luncher</item>
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:windowEnterTransition">@transition/explode</item>
+
+
+    </style>
+</resources>

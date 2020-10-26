@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    android:searchSuggestIntentData=" content://com.example.bookworld.main.search_suggestiosn_package.ContentPropvider_Suggestions/SEARCH_SUGGESTIONS_TABLE/"
+-->
+<searchable xmlns:android="http://schemas.android.com/apk/res/android"
+    android:label="@string/app_name"
+    android:hint="@string/search"
+    android:searchSuggestIntentAction="android.intent.action.VIEW"
+    android:searchSuggestIntentData=" content://com.example.booksworld/SERIES_LIST_TABLE/suggest_text_1"
+    android:searchSuggestAuthority="com.example.booksworld.main.search_suggestiosn_package.ContentPropvider_Suggestions"
+    android:includeInGlobalSearch="true"
+    android:searchSettingsDescription="Serieses"
+
+    >
+
+
+</searchable>

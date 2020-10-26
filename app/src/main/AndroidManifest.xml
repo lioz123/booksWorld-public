@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.booksworld">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_app_icon_book_foreground"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_app_icon_book_round"
+        android:supportsRtl="false"
+        android:theme="@style/Theme.MaterialComponents.Light.NoActionBar"
+        android:usesCleartextTraffic="true">
+        <activity android:name="com.example.booksworld.main.activities.LogInActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.booksworld.main.activities.RegisterActivity" >
+
+        </activity>
+        <activity
+            android:name="com.example.booksworld.main.activities.SettingsActivity"
+            android:hardwareAccelerated="true"
+            android:label="@string/title_activity_settings" />
+        <activity
+            android:name="com.example.booksworld.main.activities.StartApp"
+            android:hardwareAccelerated="true"
+            android:theme="@style/startAppTheme">
+
+        </activity>
+        <activity
+            android:name="com.example.booksworld.main.activities.ActivityBooksItmesPresentation"
+            android:hardwareAccelerated="true" />
+        <activity
+            android:name="com.example.booksworld.main.activities.Explore_Activity"
+            android:hardwareAccelerated="true">
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/explore_searchable" />
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.booksworld.main.activities.ReciveSearhResults"
+            android:parentActivityName="com.example.booksworld.main.activities.Explore_Activity">
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/explore_searchable" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.booksworld.main.activities.BookReader">
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/explore_searchable" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+        </activity>
+
+
+
+        <receiver android:name="com.example.booksworld.main.Services.MainBraodCastReciver" />
+
+        <provider
+            android:name="com.example.booksworld.main.search_suggestiosn_package.ContentPropvider_Suggestions"
+            android:authorities="com.example.booksworld.main.search_suggestiosn_package.ContentPropvider_Suggestions"
+            android:exported="false"
+            android:readPermission="com.example.provider.READ_MY_DATA"
+            android:writePermission="com.example.provider.WRITE_MY_DATA">
+            <path-permission
+                android:pathPrefix="/ContentPropvider_Suggestions"
+                android:readPermission="android.permission.GLOBAL_SEARCH" />
+        </provider>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <service
+            android:name="com.example.booksworld.main.Services.DownloadService"
+            android:enabled="true"
+            android:exported="true"
+            android:foregroundServiceType="dataSync" />
+    </application>
+
+</manifest>

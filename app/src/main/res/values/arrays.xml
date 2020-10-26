@@ -1,0 +1,66 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="font_family_enteries">
+        <item>Arial</item>
+        <item>Times New Roman</item>
+        <item>Book Antiqua</item>
+        <item>Bookman</item>
+    </string-array>
+
+    <string-array name="font_families_values">
+        <item>Arial</item>
+        <item>Times New Roman</item>
+        <item>Book Antiqua</item>
+        <item>Bookman</item>
+
+    </string-array>
+    <string-array name="font_size_enteries">
+    <item>Small</item>
+        <item>Medium</item>
+        <item>Big</item>
+    <item>Huge</item>
+
+</string-array>
+
+    <string-array name="font_size_values">
+        <item>20</item>
+        <item>22</item>
+
+        <item>25</item>
+        <item>30</item>
+
+    </string-array>
+
+
+    <string-array name="background_color_enteries">
+        <item>White</item>
+        <item>Light-Grey</item>
+        <item>Grey</item>
+        <item>Black</item>
+
+    </string-array>
+    <string-array name="background_color_values">
+        <item>ffffff</item>
+        <item>E0E0E0</item>
+        <item>d9d9d9</item>
+        <item>@string/black_background</item>
+
+    </string-array>
+    <string-array name="text_color_enteries">
+        <item>Black</item>
+        <item>Dark-Grey</item>
+        <item>Grey</item>
+        <item>Light-Grey</item>
+
+    </string-array>
+
+    <string-array name="text_color_values">
+        <item>1a1a1a</item>
+        <item>686868</item>
+
+        <item>616161</item>
+
+        <item>b3b3b3</item>
+    </string-array>
+<!--    616161-->
+</resources>

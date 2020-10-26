@@ -1,0 +1,49 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory app:title="@string/page_preferneces">
+
+
+
+        <ListPreference
+            app:defaultValue="Times New Roman"
+            app:entries="@array/font_family_enteries"
+            app:entryValues="@array/font_families_values"
+            app:key="@string/font_family"
+            app:title="@string/font_family"
+
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            app:defaultValue="22"
+            app:entries="@array/font_size_enteries"
+            app:entryValues="@array/font_size_values"
+            app:key="@string/font_size"
+            app:title="@string/font_size"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            app:defaultValue="E0E0E0"
+            app:entries="@array/background_color_enteries"
+            app:entryValues="@array/background_color_values"
+            app:key="@string/background_color"
+            app:title="@string/background_color"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            app:defaultValue="616161"
+            app:entries="@array/text_color_enteries"
+            app:entryValues="@array/text_color_values"
+            app:key="@string/text_color"
+            app:title="@string/text_color"
+            app:useSimpleSummaryProvider="true" />
+        <SeekBarPreference
+            app:title="Download Threads"
+            app:defaultValue="16"
+            android:max="16"
+            app:min="1"
+            app:key="@string/number_of_threads"
+
+
+            />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
