@@ -1,10 +1,10 @@
 # BooksWorld - Android App
-This app was originally createed because there are too many websites and sources which you need to search through to find certain books, and even after finding a certain book keeping track of it though the interent can be exaggerating. There for I created this android app so that it will be easier to search and read books and light novels over the internet and for free.
+This app was originally created because there are too many websites and sources which you need to search through to find certain books, and even after finding it, keeping track of your current page can be exhausting. There for I created this android app so that it will be easier to search and read books over the internet and for free.
 
 BooksWorld has been made for you to be able comfortablely search and download books from multyple website sources. 
 This app contains more than 60k books. 
 
-You can also read books confrontably, change font-famly and size, enables you to bookmark your favorate books, and tracks your current page.
+You can also read books and change font-famly and size, enables you to bookmark your favorate books, and tracks your current page.
 ## Features
 
 The android app lets you:
