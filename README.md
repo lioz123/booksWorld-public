@@ -18,17 +18,17 @@ The android app lets you:
 ## Screenshots
 [<img src="/images/explore.jpeg" align="left"
 width="200"
-    hspace="10" vspace="10">](/readme/Wallabag%20Reading%20List.png)
+    hspace="10" vspace="10">](/images/explore.jpeg)
 
 [<img src="/images/bookmark.jpeg" align="left"
 width="200"
-    hspace="10" vspace="10">](/readme/Wallabag%20Reading%20List.png)
+    hspace="10" vspace="10">](/images/bookmark.jpeg)
 
 [<img src="/images/category.jpeg" align="left"
 width="200"
-    hspace="10" vspace="10">](/readme/Wallabag%20Reading%20List.png)
+    hspace="10" vspace="10">](/images/category.jpeg)
 
 [<img src="/images/settings.jpeg" align="left"
 width="200"
-    hspace="10" vspace="10">](/readme/Wallabag%20Reading%20List.png)
+    hspace="10" vspace="10">](/images/settings.jpeg)
 
