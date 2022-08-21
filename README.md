@@ -7,11 +7,11 @@ You can also read books and change the font and size, bookmark your favourite bo
 ## Features
 
 The android app lets you:
-- Support Books from multiple website
-- Synchronziation with other devices.
-- Increase and decrease the size of the font and also switch between a serif or sans-serif font for a more comfortable reading experience.
+- Support of books from multiple websites.
+- Synchronisation with other devices.
+- Increase and decrease font size and switch between serif and sans-serif fonts for a comfortable reading experience.
 - Switch between numerous themes.
-- Possibility to cache images locallya for offline reading.
+- Ability to cache images locally for offline reading.
 
 ## Screenshots
 [<img src="/images/explore.jpeg" align="left"
